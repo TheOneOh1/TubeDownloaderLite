@@ -1,8 +1,9 @@
 from pytube import YouTube
 from sys import argv
 
-
 link = input("Enter Video Link : " )
+
+try:
 vid = YouTube(link)
 
 print("\n============================================================================\n")
@@ -17,3 +18,7 @@ down.download()
 print("\nVideo Download Complete")
 
 print("\n============================================================================\n")
+
+except Exception as e:
+    print("Something went wrong with the link, more information is provided below.")
+    print(e)
