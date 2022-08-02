@@ -1,6 +1,7 @@
 # YouTube Downloader Lite
 
 - Experimental YouTube downloader using pytube
+- Along with progress bar
 - You can find the Documentation for the **pytube** : https://pytube.io/en/latest/index.html
 
 ### How to use
@@ -9,4 +10,4 @@
 - Copy paste the YouTube link of the video.
 
 ### How it looks
-![](https://github.com/TheOneOh1/TubeDownloaderLite/blob/main/youtubedownload.png)
+![](https://github.com/TheOneOh1/TubeDownloaderLite/blob/main/carbon.png)
