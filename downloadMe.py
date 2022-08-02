@@ -9,9 +9,9 @@ try:
     print("\n============================================================================\n")
 
     print("Title : ", vid.title)
-
-    down = vid.streams.get_by_itag(22)
-    down.download()
+    for i in tqdm(range(100), desc="Downloading video : ", ascii=None, ncols=70):
+        down = vid.streams.get_by_itag(22)
+        down.download()
 
     #You can save the downloaded video in a specific path down.download('path')
 
