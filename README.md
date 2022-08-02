@@ -8,6 +8,7 @@
 
 - Run the Python file, it will ask for a link.
 - Copy paste the YouTube link of the video.
+- A progress bar will show up and your video will be downloaded in the current working directory.
 
 ### How it looks
 ![](https://github.com/TheOneOh1/TubeDownloaderLite/blob/main/carbon.png)
