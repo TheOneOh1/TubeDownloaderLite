@@ -6,6 +6,10 @@
 
 ### How to use
 
+- Make sure to install the pythube libraries
+```
+pip install pytube
+```
 - Run the Python file, it will ask for a link.
 ```
 python3 downloadMe.py
